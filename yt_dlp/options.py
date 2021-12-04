@@ -1288,12 +1288,12 @@ def parseOpts(overrideArguments=None):
         help='Do not overwrite post-processed files')
     postproc.add_option(
         '--embed-subs',
-        action='store_true', dest='embedsubtitles', default=False,
-        help='Embed subtitles in the video (only for mp4, webm and mkv videos)')
+        action='store_true', dest='embedsubtitles',
+        help='Embed subtitles in the video (only for mp4, webm and mkv videos) (default)')
     postproc.add_option(
         '--no-embed-subs',
-        action='store_false', dest='embedsubtitles',
-        help='Do not embed subtitles (default)')
+        action='store_false', dest='embedsubtitles', default=False,
+        help='Do not embed subtitles')
     postproc.add_option(
         '--embed-thumbnail',
         action='store_true', dest='embedthumbnail', default=False,

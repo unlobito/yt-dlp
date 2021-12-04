@@ -837,8 +837,8 @@ You can also fork the project on github and run your fork's [build workflow](.gi
     --post-overwrites                Overwrite post-processed files (default)
     --no-post-overwrites             Do not overwrite post-processed files
     --embed-subs                     Embed subtitles in the video (only for mp4,
-                                     webm and mkv videos)
-    --no-embed-subs                  Do not embed subtitles (default)
+                                     webm and mkv videos) (default)
+    --no-embed-subs                  Do not embed subtitles
     --embed-thumbnail                Embed thumbnail in the video as cover art
     --no-embed-thumbnail             Do not embed thumbnail (default)
     --embed-metadata                 Embed metadata to the video file. Also
